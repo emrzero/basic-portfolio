@@ -1,15 +1,82 @@
 /*Global*/
-
-#navigation {
-  background-color: #DCDCDC;
+* {
+  font-size: 24px;
 }
 
-section {
-  
+body {
+  background-image: url("../images/sayagata.png");
+  background-repeat: repeat;
+}
+
+/*Header and Navigation*/
+
+#top {
+  width: 960px;
+  height: 100px;
+  background: white;
+}
+
+#name {
+  float: left;
+  width: 250px;
+  height: 90px;
+  background-color: #4AAAA5;
+
+}
+
+h1 {
+
+}
+
+nav {
+  float: right;
+  margin: 20px 30px;
+}
+li {
+  float: left;
 }
 
 
-/*Index or About Me*/
+/*Footer*/
+
+footer {
+    float: left;
+    clear: both;
+    width: 100%;
+}
+
+/* Main */
+#main {
+  width: 650px;
+  background-color: white;
+  padding: 20px;
+  margin: 20px auto;
+  float: left;
+  clear: none;
+}
+
+/* Side Bar */
+
+aside {
+  width: 270px;
+  height: 175px;
+  overflow: auto;
+  background: white;
+  float: left;
+  clear: right;  
+  margin: 20px;
+  padding: 10px;
+}
+
+.alogo {
+  width: 50px;
+  height: 50px;
+  float:left;
+  margin: 5px;
+}
+
+
+
 
 
 /* Portfolio */
