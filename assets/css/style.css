@@ -11,9 +11,10 @@ body {
 /*Header and Navigation*/
 
 #top {
-  width: 960px;
+  max-width: 960px;
   height: 100px;
   background: white;
+  margin: 10px auto;
 }
 
 #name {
@@ -43,32 +44,37 @@ footer {
     float: left;
     clear: both;
     width: 100%;
+    text-align: center; 
 }
 
 /* Main */
-#main {
-  width: 650px;
-  background-color: white;
+main {
+  max-width: 960px;
   padding: 20px;
   margin: 20px auto;
+
+}
+
+#bio {
+  max-width: 650px;
   float: left;
   clear: none;
+  background: white;
+  padding: 20px;
 }
 
 /* Side Bar */
 
 aside {
-  width: 270px;
-  height: 175px;
-  overflow: auto;
+  /*max-width: 270px;*/
+  height: 175px;  
   background: white;
   float: left;
   clear: right;  
-  margin: 20px;
-  padding: 10px;
+  margin: 0 0 0 10px;
 }
 
-.alogo {
+.cm_logo {
   width: 50px;
   height: 50px;
   float:left;
