@@ -123,7 +123,7 @@ main {
 
 }
 
-
+/**************************/
 /* Individual Page styles */
 
 /*About Me */
@@ -135,11 +135,32 @@ main {
 
 
 
-
-
-
 /* Portfolio */
 
+.picbox {
+  float: left;
+  clear: none;
+  margin: 20px;
+}
+
+.portfolio_link {
+  width: 230px;
+  height: 300px;
+  overflow: auto;
+  float: left;
+  clear: none;
+  text-decoration: none;
+}
+
+.t2 {
+  background-color: #4aaaa5;
+  width: 220px;
+  color: #fff;
+  position: relative;
+  left: 0;
+  bottom: 60px;
+  text-align: center;
+}
 
 /* Contact */
 label {
