@@ -146,6 +146,13 @@ label {
   font-size: 16px;
 }
 
+#contact-button {
+  background-color: #4AAAA5;
+  width: 120px;
+  color: #fff;
+  font-size: 18px;
+}
+
 /*Place Holder text styling accross browsers */
 
 ::-webkit-input-placeholder {
