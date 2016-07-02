@@ -136,11 +136,14 @@ main {
 
 
 /* Portfolio */
+#portfolio-container {
+  margin: 40px 0 10px 38px;
+}
 
 .picbox {
   float: left;
   clear: none;
-  margin: 20px;
+  margin: 0 28.125px;
 }
 
 .portfolio_link {
@@ -149,17 +152,20 @@ main {
   overflow: auto;
   float: left;
   clear: none;
-  text-decoration: none;
+  text-decoration: none !important;
 }
 
 .t2 {
   background-color: #4aaaa5;
-  width: 220px;
+  width: 225px;
+  padding: 10px 0;
   color: #fff;
   position: relative;
   left: 0;
-  bottom: 60px;
+  bottom: 70px;
   text-align: center;
+  font-size: 18px;
+  text-decoration: none !important;
 }
 
 /* Contact */
