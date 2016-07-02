@@ -1,6 +1,9 @@
 /*Global*/
 * {
   font-size: 24px;
+  line-height: 1.5;
+  font-family: "Arial", "Helvetica Neue", Helvetica, sans-serif;
+  color: #777;
 }
 
 body {
@@ -8,70 +11,87 @@ body {
   background-repeat: repeat;
 }
 
-/*Header and Navigation*/
+h1, h2, h3, h4, h5, h6 {
+  font-family: "Georgia", Times, Times New Roman, serif;
+}
+
+
+/*  Header and Navigation*/
+header {
+  background-color: #fff;
+  border-bottom-style: solid;
+  border-bottom-width: 1px;
+  border-bottom-color: #ddd;
+  padding: 0;
+}
 
 #top {
   max-width: 960px;
   height: 100px;
-  background: white;
-  margin: 10px auto;
+  background: #fff;
+  margin: 0 auto;
+
 }
 
 #name {
   float: left;
   width: 250px;
-  height: 90px;
+  height: 100px;
   background-color: #4AAAA5;
-
 }
 
-h1 {
+#h-name {
+  font-size: 38px;
+  color: #fff;
+  margin: 30px;
 
 }
 
 nav {
   float: right;
-  margin: 20px 30px;
+  margin: 50px 50px 0 0;
 }
-li {
+
+.nav-li {
   float: left;
+  margin: 0 10px
 }
 
 
-/*Footer*/
+
+/* Footer */
 
 footer {
     float: left;
     clear: both;
     width: 100%;
-    text-align: center; 
+    height: 100px;
+    text-align: center;
+    background: #666;
+    padding: 20px 0 0 0;
+    border-top-style: solid;
+    border-width: 10px 0 0 0;
+    border-color: #4aaaa5;
 }
 
-/* Main */
-main {
-  max-width: 960px;
-  padding: 20px;
-  margin: 20px auto;
-
-}
-
-#bio {
-  max-width: 650px;
-  float: left;
-  clear: none;
-  background: white;
-  padding: 20px;
+#footer-text {
+  color: #fff;
+  margin: 20px 0;
 }
 
 /* Side Bar */
 
 aside {
-  /*max-width: 270px;*/
+  max-width: 230px;
   height: 175px;  
-  background: white;
+  background: #fff;
   float: left;
   clear: right;  
   margin: 0 0 0 10px;
+  padding: 28px;
+  border-style: solid;
+  border-width: 1px;
+  border-color: #ddd;
 }
 
 .cm_logo {
@@ -81,6 +101,39 @@ aside {
   margin: 5px;
 }
 
+/* Main */
+
+main {
+  width: 960px;
+  padding: 20px;
+  margin: 20px auto;
+
+}
+
+#content {
+  width: 640px;
+  float: left;
+  clear: none;
+  background: #fff;
+  margin: 0 30px 20px 0;
+  padding: 18px;
+  border-style: solid;
+  border-width: 1px;
+  border-color: #ddd;
+
+}
+
+
+/* Individual Page styles */
+
+/*About Me */
+
+#profilepic {
+  float: left;
+  margin: 0 15px 5px 0;
+}
+
+
 
 
 
@@ -89,5 +142,25 @@ aside {
 
 
 /* Contact */
+label {
+  font-size: 16px;
+}
 
+/*Place Holder text styling accross browsers */
+
+::-webkit-input-placeholder {
+   font-size: 16px;
+}
+
+:-moz-placeholder { /* Firefox 18- */
+   font-size: 16px; 
+}
+
+::-moz-placeholder {  /* Firefox 19+ */
+   font-size: 16px;
+}
+
+:-ms-input-placeholder {  
+   font-size: 16px;
+}
 
